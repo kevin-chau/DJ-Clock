@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBC5715323E156A200160006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5715223E156A200160006 /* AppDelegate.swift */; };
+		DBC5715523E156A200160006 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5715423E156A200160006 /* SceneDelegate.swift */; };
+		DBC5715823E156A200160006 /* DJ_Clock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBC5715623E156A200160006 /* DJ_Clock.xcdatamodeld */; };
+		DBC5715A23E156A200160006 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5715923E156A200160006 /* ContentView.swift */; };
+		DBC5715C23E156A500160006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC5715B23E156A500160006 /* Assets.xcassets */; };
+		DBC5715F23E156A500160006 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC5715E23E156A500160006 /* Preview Assets.xcassets */; };
+		DBC5716223E156A500160006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC5716023E156A500160006 /* LaunchScreen.storyboard */; };
+		DBC5716D23E156A500160006 /* DJ_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5716C23E156A500160006 /* DJ_ClockTests.swift */; };
+		DBC5717823E156A500160006 /* DJ_ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5717723E156A500160006 /* DJ_ClockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBC5716923E156A500160006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC5714723E156A200160006 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC5714E23E156A200160006;
+			remoteInfo = "DJ Clock";
+		};
+		DBC5717423E156A500160006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC5714723E156A200160006 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC5714E23E156A200160006;
+			remoteInfo = "DJ Clock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBC5714F23E156A200160006 /* DJ Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DJ Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC5715223E156A200160006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBC5715423E156A200160006 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DBC5715723E156A200160006 /* DJ_Clock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DJ_Clock.xcdatamodel; sourceTree = "<group>"; };
+		DBC5715923E156A200160006 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBC5715B23E156A500160006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBC5715E23E156A500160006 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBC5716123E156A500160006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBC5716323E156A500160006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC5716823E156A500160006 /* DJ ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DJ ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC5716C23E156A500160006 /* DJ_ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJ_ClockTests.swift; sourceTree = "<group>"; };
+		DBC5716E23E156A500160006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC5717323E156A500160006 /* DJ ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DJ ClockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC5717723E156A500160006 /* DJ_ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJ_ClockUITests.swift; sourceTree = "<group>"; };
+		DBC5717923E156A500160006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBC5714C23E156A200160006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5716523E156A500160006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5717023E156A500160006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBC5714623E156A200160006 = {
+			isa = PBXGroup;
+			children = (
+				DBC5715123E156A200160006 /* DJ Clock */,
+				DBC5716B23E156A500160006 /* DJ ClockTests */,
+				DBC5717623E156A500160006 /* DJ ClockUITests */,
+				DBC5715023E156A200160006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC5715023E156A200160006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC5714F23E156A200160006 /* DJ Clock.app */,
+				DBC5716823E156A500160006 /* DJ ClockTests.xctest */,
+				DBC5717323E156A500160006 /* DJ ClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC5715123E156A200160006 /* DJ Clock */ = {
+			isa = PBXGroup;
+			children = (
+				DBC5715223E156A200160006 /* AppDelegate.swift */,
+				DBC5715423E156A200160006 /* SceneDelegate.swift */,
+				DBC5715923E156A200160006 /* ContentView.swift */,
+				DBC5715B23E156A500160006 /* Assets.xcassets */,
+				DBC5716023E156A500160006 /* LaunchScreen.storyboard */,
+				DBC5716323E156A500160006 /* Info.plist */,
+				DBC5715623E156A200160006 /* DJ_Clock.xcdatamodeld */,
+				DBC5715D23E156A500160006 /* Preview Content */,
+			);
+			path = "DJ Clock";
+			sourceTree = "<group>";
+		};
+		DBC5715D23E156A500160006 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DBC5715E23E156A500160006 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBC5716B23E156A500160006 /* DJ ClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC5716C23E156A500160006 /* DJ_ClockTests.swift */,
+				DBC5716E23E156A500160006 /* Info.plist */,
+			);
+			path = "DJ ClockTests";
+			sourceTree = "<group>";
+		};
+		DBC5717623E156A500160006 /* DJ ClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC5717723E156A500160006 /* DJ_ClockUITests.swift */,
+				DBC5717923E156A500160006 /* Info.plist */,
+			);
+			path = "DJ ClockUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBC5714E23E156A200160006 /* DJ Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC5717C23E156A500160006 /* Build configuration list for PBXNativeTarget "DJ Clock" */;
+			buildPhases = (
+				DBC5714B23E156A200160006 /* Sources */,
+				DBC5714C23E156A200160006 /* Frameworks */,
+				DBC5714D23E156A200160006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DJ Clock";
+			productName = "DJ Clock";
+			productReference = DBC5714F23E156A200160006 /* DJ Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBC5716723E156A500160006 /* DJ ClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC5717F23E156A500160006 /* Build configuration list for PBXNativeTarget "DJ ClockTests" */;
+			buildPhases = (
+				DBC5716423E156A500160006 /* Sources */,
+				DBC5716523E156A500160006 /* Frameworks */,
+				DBC5716623E156A500160006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC5716A23E156A500160006 /* PBXTargetDependency */,
+			);
+			name = "DJ ClockTests";
+			productName = "DJ ClockTests";
+			productReference = DBC5716823E156A500160006 /* DJ ClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBC5717223E156A500160006 /* DJ ClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC5718223E156A500160006 /* Build configuration list for PBXNativeTarget "DJ ClockUITests" */;
+			buildPhases = (
+				DBC5716F23E156A500160006 /* Sources */,
+				DBC5717023E156A500160006 /* Frameworks */,
+				DBC5717123E156A500160006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC5717523E156A500160006 /* PBXTargetDependency */,
+			);
+			name = "DJ ClockUITests";
+			productName = "DJ ClockUITests";
+			productReference = DBC5717323E156A500160006 /* DJ ClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBC5714723E156A200160006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Kevin Chau";
+				TargetAttributes = {
+					DBC5714E23E156A200160006 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					DBC5716723E156A500160006 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = DBC5714E23E156A200160006;
+					};
+					DBC5717223E156A500160006 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = DBC5714E23E156A200160006;
+					};
+				};
+			};
+			buildConfigurationList = DBC5714A23E156A200160006 /* Build configuration list for PBXProject "DJ Clock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBC5714623E156A200160006;
+			productRefGroup = DBC5715023E156A200160006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC5714E23E156A200160006 /* DJ Clock */,
+				DBC5716723E156A500160006 /* DJ ClockTests */,
+				DBC5717223E156A500160006 /* DJ ClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBC5714D23E156A200160006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC5716223E156A500160006 /* LaunchScreen.storyboard in Resources */,
+				DBC5715F23E156A500160006 /* Preview Assets.xcassets in Resources */,
+				DBC5715C23E156A500160006 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5716623E156A500160006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5717123E156A500160006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBC5714B23E156A200160006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC5715323E156A200160006 /* AppDelegate.swift in Sources */,
+				DBC5715523E156A200160006 /* SceneDelegate.swift in Sources */,
+				DBC5715A23E156A200160006 /* ContentView.swift in Sources */,
+				DBC5715823E156A200160006 /* DJ_Clock.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5716423E156A500160006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC5716D23E156A500160006 /* DJ_ClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5716F23E156A500160006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC5717823E156A500160006 /* DJ_ClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBC5716A23E156A500160006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC5714E23E156A200160006 /* DJ Clock */;
+			targetProxy = DBC5716923E156A500160006 /* PBXContainerItemProxy */;
+		};
+		DBC5717523E156A500160006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC5714E23E156A200160006 /* DJ Clock */;
+			targetProxy = DBC5717423E156A500160006 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBC5716023E156A500160006 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC5716123E156A500160006 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBC5717A23E156A500160006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBC5717B23E156A500160006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBC5717D23E156A500160006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DJ Clock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DJ Clock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kevinchau.com.DJ-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBC5717E23E156A500160006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DJ Clock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DJ Clock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kevinchau.com.DJ-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBC5718023E156A500160006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DJ ClockTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kevinchau.com.DJ-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJ Clock.app/DJ Clock";
+			};
+			name = Debug;
+		};
+		DBC5718123E156A500160006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DJ ClockTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kevinchau.com.DJ-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJ Clock.app/DJ Clock";
+			};
+			name = Release;
+		};
+		DBC5718323E156A500160006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DJ ClockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kevinchau.com.DJ-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DJ Clock";
+			};
+			name = Debug;
+		};
+		DBC5718423E156A500160006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DJ ClockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kevinchau.com.DJ-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DJ Clock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBC5714A23E156A200160006 /* Build configuration list for PBXProject "DJ Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC5717A23E156A500160006 /* Debug */,
+				DBC5717B23E156A500160006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC5717C23E156A500160006 /* Build configuration list for PBXNativeTarget "DJ Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC5717D23E156A500160006 /* Debug */,
+				DBC5717E23E156A500160006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC5717F23E156A500160006 /* Build configuration list for PBXNativeTarget "DJ ClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC5718023E156A500160006 /* Debug */,
+				DBC5718123E156A500160006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC5718223E156A500160006 /* Build configuration list for PBXNativeTarget "DJ ClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC5718323E156A500160006 /* Debug */,
+				DBC5718423E156A500160006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DBC5715623E156A200160006 /* DJ_Clock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DBC5715723E156A200160006 /* DJ_Clock.xcdatamodel */,
+			);
+			currentVersion = DBC5715723E156A200160006 /* DJ_Clock.xcdatamodel */;
+			path = DJ_Clock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DBC5714723E156A200160006 /* Project object */;
+}
